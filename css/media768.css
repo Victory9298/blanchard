@@ -1,0 +1,314 @@
+@media screen and (max-width: 770px) {
+  /* common */
+
+  .container {
+    padding-right: 45px;
+  }
+  /* catalog */
+
+  .list-no-image {
+    column-count: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .name-list-media {
+    display: none;
+  }
+
+  .catalog-content__link-none {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+  }
+
+  /* gallery */
+
+  .gallery-content__left {
+    height: 185px;
+  }
+
+  .gallery-container__btns {
+    top: 132px;
+  }
+
+  /* catalog */
+
+  .catalog-content__left {
+    margin-top: 0;
+    padding-top: 34px;
+  }
+
+  .catalog-content__left-image {
+    margin-bottom: 29px;
+  }
+
+  .edition-slide__link {
+    padding: 0 0 109% 0;
+  }
+
+  .catalog-content__accordion-title.title-3 {
+    height: 116px;
+  }
+
+  /* events */
+
+  .events {
+    padding-top: 93px;
+  }
+
+  .events-content {
+    gap: 10px;
+  }
+
+  .events-content__item {
+    flex: 0 0 47.5%;
+  }
+
+  .events-content__descr {
+    padding-left: 34px;
+    padding-right: 20px;
+  }
+
+  .events-content__descr--talk {
+    padding-left: 32px;
+  }
+
+  .events-slide__item  {
+    width: 317px;
+  }
+
+  .events-content__top {
+    padding-right: 19px;
+  }
+
+  .events-slide__top {
+    padding-right: 20px;
+  }
+
+  .events-content__link {
+    top: -22px;
+    left: 32px;
+  }
+
+  .editions-left__heading {
+    margin-bottom: -5px;
+  }
+
+  .events__btn {
+    margin-top: 51px;
+  }
+
+  .checkbox-content__item {
+    margin-bottom: -5px;
+  }
+
+  /* editions */
+
+  .editions {
+    padding-top: 83px;
+    padding-bottom: 58px;
+  }
+
+  .editions__heading {
+    margin-bottom: 16px;
+  }
+
+  .checkbox-content__item {
+    white-space: normal;
+  }
+
+  .catalog-content__accordion {
+    left: 0;
+  }
+
+  .catalog-content__accordion-btn {
+    margin-right: 5px;
+  }
+
+  .checkbox-content {
+    margin-bottom: 35px;
+  }
+
+  .edition-slide__content {
+    padding-top: 21px;
+  }
+
+  .edition-slide__descr {
+    margin-bottom: 16px;
+  }
+
+  .swiper-slide__logotype-link {
+    padding: 13px 10px 10px 13px;
+  }
+
+  .next-3, .prev-3 {
+    top: 38px;
+  }
+
+  .next-3 {
+    right: 5px;
+  }
+
+  .pag2 {
+    top: 330px;
+  }
+
+  .next-2,
+  .prev-2 {
+    top: 325px;
+  }
+
+  .edition-slide img {
+    width: 100%;
+  }
+
+  .edition-slide {
+    max-width: 100%;
+  }
+
+  .swiper-slide.edition-slide {
+    width: 300px;
+  }
+  /* projects */
+
+  .projects-slide {
+    height: 106px;
+  }
+
+  .projects__text {
+    max-width: 660px;
+  }
+
+  .projects__heading,
+  .section-contacts__heading {
+    margin-bottom: 25px;
+  }
+
+  .projects-bottom {
+    padding-top: 25px;
+  }
+
+  .burger-dropdown__list {
+    margin-bottom: 112px;
+  }
+
+  .gallery-filter__descr {
+    margin-bottom: 10px;
+  }
+
+  .choices__inner {
+    padding: 0 10px;
+  }
+
+  .choices[data-type*=select-one] .choices__inner {
+    padding-bottom: 0;
+  }
+
+  .choices__list--single {
+    padding-top: 7px;
+  }
+
+  .gallery-container {
+    padding-top: 8px;
+  }
+
+  .note-media {
+    margin-top: -1px;
+  }
+
+  .catalog {
+    padding-top: 81px;
+  }
+
+  .catalog-top {
+    padding-right: 10px;
+    margin-bottom: 17px;
+  }
+
+  .catalog-top__heading {
+    margin-right: 36px;
+  }
+
+  .catalog-top__switch-item:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .catalog-top__switch-btn {
+    top: -5px;
+  }
+
+  .catalog-top__switch-btn::before {
+    top: 50%;
+  }
+
+  .projects__heading {
+    margin-bottom: 15px;
+  }
+
+  .contacts-content__left {
+    padding-top: 125px;
+  }
+
+  .contacts {
+    padding-top: 8px;
+  }
+
+  .section-contacts__heading {
+    margin-bottom: 11px;
+  }
+
+  .contacts-addresss__street {
+    margin-bottom: 32px;
+  }
+
+  .contacts-content__heading {
+    margin-left: -2px;
+  }
+
+  .footer {
+    padding-top: 40px;
+  }
+
+  .footer-social__link.vk {
+    left: -2px;
+  }
+
+  .footer-social__link.instagram {
+    left: -11px;
+  }
+
+  .footer-social__link.fb {
+    left: -20px;
+  }
+}
+
+@media screen and (max-width: 690px) {
+
+  .checkbox-content {
+    flex-wrap: wrap;
+    column-gap: 10px;
+  }
+
+  .checkbox-content__list {
+    flex: 0 0 48%;
+  }
+
+  .checkbox-content__list-3 {
+    flex: 0 0 100%;
+    margin-left: 0;
+  }
+
+  .checkbox-content__text {
+    width: 100%;
+  }
+
+  .gallery-slide {
+    max-height: 626px;
+    height: 626px;
+  }
+
+  .gallery-container__btns {
+    left: 0;
+    /* top: 590px; */
+  }
+}
